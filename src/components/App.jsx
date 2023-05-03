@@ -9,9 +9,9 @@ import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Loader } from './Loader/Loader';
 import { Modal } from './Modal/Modal';
 
-// const API_KEY = '30885562-a2eefab65b39820f24403263b';
-// 'https://pixabay.com/api/?key=30885562-a2eefab65b39820f24403263b&image_type=photo&orientation=horizontal&per_page=12';
-const API = 'https://pixabay.com/api/?key=30885562 - a2eefab65b39820f24403263b';
+// const API_KEY = '32938330-25a7d9530d370aeaa9b179f57';
+// 'https://pixabay.com/api/?key=32938330-25a7d9530d370aeaa9b179f57&image_type=photo&orientation=horizontal&per_page=12';
+const API = 'https://pixabay.com/api/?key=32938330-25a7d9530d370aeaa9b179f57';
 
 export function App() {
   const [images, setImages] = useState([]);

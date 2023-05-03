@@ -15,7 +15,7 @@ export function Modal({ activeImg, onCloseModal }) {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => {
-      document.addEventListener('keydown', handleKeyDown);
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, [onCloseModal]);
 
