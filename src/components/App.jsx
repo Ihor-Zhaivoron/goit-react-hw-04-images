@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import ScrollToTop from 'react-scroll-to-top';
 import css from './App.module.css';
-// import { func } from 'prop-types';
 // =======components========
 import { Searchbar } from './Searchbar/Searchbar';
 import { Button } from './Button/Button';
